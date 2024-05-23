@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Gilroy Light;
+    src: url("../fonts/Gilroy-Light.otf") format("opentype");
+}
+
+body {
+    font-family: Gilroy Light;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 1915px;
+    display: flex;
+    padding: 150px;    
+}
+
+.top_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1);
+    column-gap: 75px;
+
+}
+
+.icon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.i_1 {
+    background: #F2582240;
+}
+
+.i_2 {
+    background: #14921147;
+}
+
+.i_3 {
+    background: #FFCD1D3D;
+}
+
+.container {
+    width: 310px;
+}
+
+.cont_2 {
+    box-shadow: 20px 20px 10px rgba(241, 238, 238, 0.635);
+    width: 370px;
+}
+
+p {
+    color: #666666;
+}
+
+.main_container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.central_info {
+    width: 682px;
+  
+}
+
+.central_info>p {
+    font-size: 14px;
+    line-height: 24px;    
+}
+
+.main_info {
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.info {
+    width: 370px;
+}
